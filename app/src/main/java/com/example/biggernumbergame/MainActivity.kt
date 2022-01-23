@@ -46,7 +46,7 @@ class MainActivity : AppCompatActivity() {
         if (isAnswerCorrect) {
             //Correct answer!
             //Change background color
-            binding.backgroundView.setBackgroundColor(Color.GREEN)
+            binding.backgroundView.setBackgroundColor(Color.CYAN)
             //Show a notification (called toast in Android)
             Toast.makeText(this, "Correct!", Toast.LENGTH_SHORT).show()
         } else {
